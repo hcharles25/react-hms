@@ -54,31 +54,31 @@ export const DepartmentData = [
 
 export const Psychiatrist = [
   {
-    title: "Dr.Rajendra Patel",
-    value: "Dr.Rajendra Patel",
+    title: "Dr. Steve Ross",
+    value: "Dr. Steve Ross",
   },
   {
-    title: "Dr.Rajendra Patel",
-    value: "Dr.Rajendra Patel",
+    title: "Dr. Steve Ross",
+    value: "Dr. Steve Ross",
   },
   {
-    title: "Dr.Rajendra Patel",
-    value: "Dr.Rajendra Patel",
+    title: "Dr. Steve Ross",
+    value: "Dr. Steve Ross",
   },
 ];
 
 export const Pediatrics = [
   {
-    title: "Dr.Piyush Agarwal",
-    value: "Dr.Piyush Agarwal",
+    title: "Dr. Charles Hardy",
+    value: "Dr. Charles Hardy",
   },
   {
-    title: "Dr.Piyush Agarwal",
-    value: "Dr.Piyush Agarwal",
+    title: "Dr. Charles Hardy",
+    value: "Dr. Charles Hardy",
   },
   {
-    title: "Dr.Piyush Agarwal",
-    value: "Dr.Piyush Agarwal",
+    title: "Dr. Charles Hardy",
+    value: "Dr. Charles Hardy",
   },
 ];
 

@@ -376,10 +376,10 @@ const Add_Patient = () => {
                   >
                     <option value="">Select doctor</option>
                     <option value="63d228df1742e138a3727857">
-                      Piyush Agrawal
+                      Charles Hardy
                     </option>
                     <option value="63d2270dfe66e89c9be342f9">
-                      Rajendra Patel
+                      Steve Ross
                     </option>
                   </select>
                 </div>

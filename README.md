@@ -1,30 +1,4 @@
 
-## To Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/piyush-agrawal6/Hospital-Management-System.git
-```
-
-Go to the project directory
-
-```bash
-  cd Hospital-Management-System
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run start
-```
-
 
 # Hospital Management System
 
@@ -75,8 +49,6 @@ Dashboard - https://hm-system.netlify.app/
 
 User Side - https://hms-user-side.netlify.app/
 
-Server - https://github.com/piyush-agrawal6/HMS-Backend
-
 ## Screenshots
 
 1.Dashboard
@@ -110,10 +82,3 @@ Server - https://github.com/piyush-agrawal6/HMS-Backend
 ## Presentation
 
 Link - <a href="https://drive.google.com/file/d/1xwcSsjdl6QHnJ-JXl11moBAwSqSQFRjh/view?usp=sharing" alt="presentation">Drive</a>
-
-## Team Members / Contributors
-
-- [@Piyush Agrawal](https://github.com/piyush-agrawal6)
-- [@Rajendra Patel](https://github.com/centauricoder01)
-- [@Salman Ajani](https://github.com/SalmanAjani)
-

@@ -61,22 +61,22 @@ const Doctor_Profile = () => {
     DOB: data.user.DOB,
   });
 
-  const handleFormChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
   const handleFormSubmit = () => {
     disptach(UpdateDoctor(formData, data.user._id));
     success("user updated");
     handleOk();
   };
 
-  if (data?.isAuthticated === false) {
-    return <Navigate to={"/"} />;
-  }
+  const handleFormChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
 
   if (data?.user.userType !== "doctor") {
     return <Navigate to={"/dashboard"} />;
+  }
+
+  if (data?.isAuthticated === false) {
+    return <Navigate to={"/"} />;
   }
 
   return (

@@ -1,29 +1,4 @@
 
-## To Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/piyush-agrawal6/Hospital-Management-System.git
-```
-
-Go to the project directory
-
-```bash
-  cd Hospital-Management-System
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run start
-```
 
 
 # Hospital Management System
@@ -54,8 +29,6 @@ This a software to control all the management related to a hospital , like admit
 ## 🔗 Links
 Client - https://brain-labs.netlify.app/
 
-Server - https://github.com/piyush-agrawal6/HMS-Backend
-
 ## Features
 
 - Admin controls
@@ -78,11 +51,4 @@ Server - https://github.com/piyush-agrawal6/HMS-Backend
 Presentation -
 
 Blog -
-
-
-## Team Members / Contributors
-
-- [@Piyush Agrawal](https://github.com/piyush-agrawal6)
-- [@Udhaya Prakash](https://github.com/udhai-20)
-- [@Rajendra Patel](https://github.com/centauricoder01)
 

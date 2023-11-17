@@ -36,13 +36,13 @@ const Add_Admin = () => {
     e.preventDefault();
     setloading(true);
     dispatch(AdminRegister(AdminValue)).then((res) => {
-      if (res.message === "Admin already exists") {
-        setloading(false);
-        return notify("Admin Already Exist");
-      }
       if (res.message === "error") {
         setloading(false);
         return notify("Something went wrong, Please try Again");
+      }
+      if (res.message === "Admin already exists") {
+        setloading(false);
+        return notify("Admin Already Exist");
       }
       notify("Admin Added");
 
@@ -144,7 +144,7 @@ const Add_Admin = () => {
                 </div>
               </div>
               <div>
-                <label>Birthdate</label>
+                <label>BOD</label>
                 <div className="inputdiv">
                   <input
                     type="date"
